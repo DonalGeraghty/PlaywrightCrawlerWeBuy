@@ -1,0 +1,10 @@
+.env
+*-*-*.csv
+/.idea
+*.pyc
+__pycache__
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/PlaywrightCrawlerWeBuy.iml
+.idea/vcs.xml
+.idea/workspace.xml
