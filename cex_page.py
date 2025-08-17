@@ -12,7 +12,7 @@ class CexPage:
         self.title_locator = ".card-title"
         self.price_locator = ".product-prices"
         self.product_card_locator = ".search-product-card"
-        self.cookies = self.page.locator("#cmpbntyestxt:has-text('Accept All Cookies')")
+        self.cookies = self.page.locator("#cmpbntyestxt:has-text('Accept All')")
         self.blu_ray_4k = self.page.locator('span.item-label:has-text("Blu-Ray 4K")').locator('..').locator(
             ".checkmark")
         self.in_stock_online = self.page.locator('span.item-label:has-text("In Stock Online")').first.locator(
